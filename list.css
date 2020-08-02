@@ -1,0 +1,54 @@
+
+body{
+    
+    background-color: aquamarine;
+}
+
+.header{
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    font-size: 70px;
+    color: yellow;
+    border: 1px solid black;
+    font-weight: 900;
+    cursor: pointer;
+    letter-spacing: 12px;
+    
+    animation-name: animate;
+    animation-duration: 3.3s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+    
+}
+@keyframes animate{
+    0%{
+        color: white;
+        text-shadow: 0 0 4px white;
+    }
+    35%{
+        color: wheat;
+        text-shadow: 0 0 6px wheat;
+    }
+    70%{
+        color: rgb(247, 250, 67);
+        text-shadow: 0 0 8px rgb(247, 250, 67);
+    }
+    100%{
+        color: yellow;
+        text-shadow: 0 0 10px yellow;
+    }
+}
+
+.blue{
+    margin-bottom: 5px;
+}
+.zz{
+    margin: 0 5px;
+}
+#inp{
+    margin-top: 40px;
+    width: 50%;
+    padding: 7px;
+    margin-left: 10.5%;
+}
